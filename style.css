@@ -1,0 +1,327 @@
+#body{
+	background-color: #5B5959;
+}
+
+/*Header LoginView*/
+
+
+#loginform
+{
+	margin-left: 1320px;
+	margin-bottom: -20px;
+	padding-top: 10px;
+	width: 200px;	
+	border: none;
+}
+#login{
+	background-color: #322F2F;
+	height: 200px;
+	width: auto;
+}
+
+#loginname{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: white;
+	font-size: 12px;
+}
+#loginpassword{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: white;
+	font-size: 12px;
+}
+#loginremeberme{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: white;
+	font-size: 12px;
+}
+
+#logoutbutton{
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;
+}
+#startlink{
+	float:left;
+	padding-left:20px;
+	margin-top:171px;
+	color:white;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size:15px;
+	text-decoration: none
+}
+
+#startlink2{
+	float:left;
+	margin-top: 9px;
+	padding-left:20px;
+	color:white;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size:15px;
+	text-decoration: none
+}
+
+#loginmessage{
+	float:right;
+	padding-right:5px;
+	padding-left: 5px;
+	margin-top: -1px;
+	background-color: #322F2F;
+	color: white;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size:11px;
+	border-radius:0px 0px 5px 5px;
+}
+
+#categoryMenu{
+	height: 35px;
+	width: 450px;
+	margin-left: 535px;
+	margin-top: 4px;
+	padding-left: 15px;
+	background-color: #322F2F;
+	border-radius:5px 5px 5px 5px;
+	font-size: 10px;
+}
+
+#categoryLink{
+	float:left;
+	margin-top: 9px;
+	padding-left:20px;
+	color:white;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration: none
+}
+
+/*RegisterView*/
+
+#registerLabel{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#registerForm{
+	background-color: white;
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-top: 20px;
+	padding-left: 110px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#registerMessage{
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-bottom: -16px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+/*PostView*/
+
+#postsview{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:white;
+	width:700px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:50px;
+	margin-left:380px;
+	margin-bottom:30px; 
+	margin-top:60px;
+}
+
+#deletebutton{
+	float: right;
+	color: white;
+	background-color: red;
+	border: none;
+	font-weight: bold;
+}
+
+#authorPostsView{
+	font-weight: bold;
+	float: right;
+}
+
+#datePostsView{
+	float: right;
+	padding-left: 500px;
+}
+
+#commentButton{
+	text-decoration: none;
+	color: white;
+	background-color: #FFA319;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px;
+}
+
+#editButton{
+	text-decoration: none;
+	color: white;
+	background-color: #3399FF;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px;
+}
+
+/*CreateCommentView*/
+
+#commentForm{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	background-color:white;
+	width:700px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top: 30px;
+	padding-bottom:30px;
+	margin-left:380px;
+	margin-bottom:1px; 
+	margin-top:60px;
+}
+
+#commentPostLabel{
+	font-weight: bold;
+}
+
+#viewComments{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:white;
+	width:700px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top: 20px;
+	padding-bottom:10px;
+	margin-left:380px;
+	margin-bottom:1px; 
+	margin-top:18px;
+	border-radius: 7px;
+}
+
+#deleteComment{
+	float: right;
+	color: white;
+	background-color: red;
+	border: none;
+	font-weight: bold;
+}
+
+#commentMessage{
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-bottom: -16px;
+	padding-left: 80px;
+	padding-bottom: 1px;
+	padding-top: 4px;
+}
+
+#commentLoginMessage{
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-bottom: 2px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+#dateCommentView{
+	float: right;
+}
+
+/*CreatePostView*/
+
+#createPostForm{
+	background-color: white;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 20px;
+}
+
+#createPostLabel{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#createPostTitleForm{
+	width: 400px;
+}
+
+#CreatePostViewValidation{
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-bottom: -16px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+/*EditPostView*/
+
+#editPostForm{
+	background-color: white;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 20px;
+}
+
+#editPostTitleForm{
+	width: 400px;
+}
+
+#editPostButton{
+	text-decoration: none;
+	color: white;
+	background-color: #3399FF;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px;
+}
+
+#editPostLabel{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#EditPostViewValidation{
+	font-size: 12px;
+	font-weight: bold;
+	background-color: white;
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-bottom: -16px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
