@@ -3,4 +3,4 @@ Blog
 
 PHP
 
-www.hejpeter.se
+www.petermagnusson84.nu
