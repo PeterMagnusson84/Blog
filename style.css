@@ -7,7 +7,7 @@
 
 #loginform
 {
-	margin-left: 1320px;
+	margin-left: 87%;
 	margin-bottom: -20px;
 	padding-top: 10px;
 	width: 200px;	
@@ -72,17 +72,6 @@
 	border-radius:0px 0px 5px 5px;
 }
 
-#categoryMenu{
-	height: 35px;
-	width: 450px;
-	margin-left: 535px;
-	margin-top: 4px;
-	padding-left: 15px;
-	background-color: #322F2F;
-	border-radius:5px 5px 5px 5px;
-	font-size: 10px;
-}
-
 #categoryLink{
 	float:left;
 	margin-top: 9px;
@@ -102,10 +91,10 @@
 
 #registerForm{
 	background-color: white;
-	margin-left: 600px;
-	margin-right: 600px;
+	margin-left: 40%;
+	margin-right: 40%;
 	margin-top: 20px;
-	padding-left: 110px;
+	padding-left: 5%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -114,10 +103,10 @@
 	font-size: 12px;
 	font-weight: bold;
 	background-color: white;
-	margin-left: 600px;
-	margin-right: 600px;
+	margin-left: 40%;
+	margin-right: 40%;
 	margin-bottom: -16px;
-	padding-left: 100px;
+	padding-left: 5%;
 	padding-bottom: 10px;
 	padding-top: 5px;
 }
@@ -128,11 +117,12 @@
 	font-family: Trebuchet MS, Helvetica, sans-serif;
 	font-size: 12px;
 	background-color:white;
-	width:700px;
+	width:40%;
 	padding-left:50px;
 	padding-right:50px;
-	padding-bottom:50px;
-	margin-left:380px;
+	padding-bottom:5px;
+	padding-top: 5px;
+	margin-left:26%;
 	margin-bottom:30px; 
 	margin-top:60px;
 }
@@ -147,12 +137,12 @@
 
 #authorPostsView{
 	font-weight: bold;
-	float: right;
+	padding-left: 80%;
 }
 
 #datePostsView{
-	float: right;
-	padding-left: 500px;
+	
+	padding-left: 80%;
 }
 
 #commentButton{
@@ -177,17 +167,28 @@
 	border-radius: 5px;
 }
 
+#categoryMenu{
+	height: 35px;
+	width: 450px;
+	margin-left: 34%;
+	margin-top: 4px;
+	padding-left: 15px;
+	background-color: #322F2F;
+	border-radius:5px 5px 5px 5px;
+	font-size: 10px;
+}
+
 /*CreateCommentView*/
 
 #commentForm{
 	font-family: Trebuchet MS, Helvetica, sans-serif;
 	background-color:white;
-	width:700px;
+	width:40%;
 	padding-left:50px;
 	padding-right:50px;
 	padding-top: 30px;
 	padding-bottom:30px;
-	margin-left:380px;
+	margin-left:26%;
 	margin-bottom:1px; 
 	margin-top:60px;
 }
@@ -200,12 +201,12 @@
 	font-family: Trebuchet MS, Helvetica, sans-serif;
 	font-size: 12px;
 	background-color:white;
-	width:700px;
+	width:40%;
 	padding-left:50px;
 	padding-right:50px;
 	padding-top: 20px;
 	padding-bottom:10px;
-	margin-left:380px;
+	margin-left:26%;
 	margin-bottom:1px; 
 	margin-top:18px;
 	border-radius: 7px;
@@ -250,12 +251,13 @@
 /*CreatePostView*/
 
 #createPostForm{
+	width: 50%;
 	background-color: white;
 	padding-left: 100px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	margin-left: 300px;
-	margin-right: 300px;
+	margin-left: 26%;
+	margin-right: 28%;
 	margin-top: 20px;
 }
 
@@ -281,6 +283,10 @@
 	padding-top: 5px;
 }
 
+#posttext{
+	width: 82%;
+}
+
 /*EditPostView*/
 
 #editPostForm{
@@ -288,8 +294,8 @@
 	padding-left: 100px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	margin-left: 300px;
-	margin-right: 300px;
+	margin-left: 26%;
+	margin-right: 28%;
 	margin-top: 20px;
 }
 
@@ -312,6 +318,7 @@
 	font-family: Trebuchet MS, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
+	width: 30%;
 }
 
 #EditPostViewValidation{
@@ -324,4 +331,8 @@
 	padding-left: 100px;
 	padding-bottom: 10px;
 	padding-top: 5px;
+}
+
+#editPostText{
+	width: 82%;
 }

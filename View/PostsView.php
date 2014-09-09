@@ -27,14 +27,12 @@ class PostsView{
 			
 			$ret .= '<div id="postsview">
 				<div></br></br>
-				<h2 id="titlePostsView">'.nl2br($value->getTitle()).'</h2></br>
-				<p id="postPostsView">'.nl2br($value->getPost()).'</p></br>
-				<p id="authorPostsView">Skapad av:'.$value->getAuthor().'</p>
-				</div>
-						
-				<a id="commentButton" href="' . $this->nav . $this->id . $value->getId() .'">Kommentera</a></br></br>
-				<p id="datePostsView">'.$value->getDate().'</p>
-				
+					<h2 id="titlePostsView">'.nl2br($value->getTitle()).'</h2></br>
+					<p id="postPostsView">'.nl2br($value->getPost()).'</p></br>
+					<a id="commentButton" href="' . $this->nav . $this->id . $value->getId() .'">Kommentera</a></br></br>
+					<p id="authorPostsView">Skapad av:'.$value->getAuthor().'</p>
+					<p id="datePostsView">'.$value->getDate().'</p>
+				</div>							
 			</div>' ;		
 			}
 			return $ret;
@@ -49,20 +47,22 @@ class PostsView{
 			<div>
 			</br>
 			<form action="" method="post">
-			  <input name="'.$this->deletePostID.'" type="hidden" value="'.$value->getId().'" />
-			  <input name="'.$this->deletePost.'" type="submit" id="deletebutton" value="X" />
+			  	<input name="'.$this->deletePostID.'" type="hidden" value="'.$value->getId().'" />
+			  	<input name="'.$this->deletePost.'" type="submit" id="deletebutton" value="X" />
 			  </form>
 			  <br>
-			<h2 id="titlePostsView">'.nl2br($value->getTitle()).'</h2></br>
-			
-			<p id="postPostsView">'.nl2br($value->getPost()).'</p></br>	
-			<p id="authorPostsView">Skapad av:'.$value->getAuthor().'</p>
+				<h2 id="titlePostsView">'.nl2br($value->getTitle()).'</h2></br>		
+				<p id="postPostsView">'.nl2br($value->getPost()).'</p></br>			
 			</div>
 			<br>
 			<div id="commenteditButtons">
-			<a id="commentButton" href="' . $this->nav . $this->id . $value->getId() .'">Kommentarer</a>
-			<a id="editButton" href="' . $this->editNav . $this->id . $value->getId() .'">Redigera</a></br></br>
-			<p id="datePostsView">'.$value->getDate().'</p>	
+				<a id="commentButton" href="' . $this->nav . $this->id . $value->getId() .'">Kommentarer</a>
+				<a id="editButton" href="' . $this->editNav . $this->id . $value->getId() .'">Redigera</a></br></br>
+			</div>
+
+			<div>
+				<p id="authorPostsView">Skapad av:'.$value->getAuthor().'</p>
+				<p id="datePostsView">'.$value->getDate().'</p>
 			</div>
 			
 		</div>' ;		

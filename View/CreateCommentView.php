@@ -59,7 +59,7 @@ class CreateCommentView{
 			<div></br><br>
 			<h2 id='titlePostsView'>".nl2br($blogposts->getTitle())."</h2></br>
 			<p id='postPostsView'>".nl2br($blogposts->getPost())."</p></br>		
-			<p id='authorPostsView'>Skapad av: ".nl2br($blogposts->getAuthor())."</p></br>
+			<p id='authorPostsView'>Skapad av: ".nl2br($blogposts->getAuthor())."</p>
 			<p id='datePostsView'>".$blogposts->getDate()."</p></br>		
 			</div>
 			</div>

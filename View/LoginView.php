@@ -22,39 +22,39 @@ class LoginView{
 	public function DoLoginBox() {
 		//Retunerar ett formulär
 		return "<div ><form id='login' action='index.php' method='get' accept-charset='UTF-8' >	
-				<fieldset id='loginform'>							
-				<input type='hidden' name='submitted' id='submitted' value='1'/>
-				<label for='username' id='loginname'>Användarnamn:</label><br>
-				<input type='text' name='$this->getUserName' id='username' width='50px' /><br>
-				<label for='password' id='loginpassword'>Lösenord:</label><br>
-				<input type='password' name='$this->getPassword' id='password'  /><br>
-				<p  id='loginremeberme'>
-				<input type='submit' name='$this->login' value='Logga in' />
-				<input type='checkbox' name='$this->remember' value='RemeberMe' />Kom ihåg mig</p>
-				<a href='$this->nav'>Registrera dig</a>
-				</fieldset>
-				<a href='$this->start' id='startlink2'>Startsidan</a>
+					<fieldset id='loginform'>							
+						<input type='hidden' name='submitted' id='submitted' value='1'/>
+						<label for='username' id='loginname'>Användarnamn:</label><br>
+						<input type='text' name='$this->getUserName' id='username' width='50px' /><br>
+						<label for='password' id='loginpassword'>Lösenord:</label><br>
+						<input type='password' name='$this->getPassword' id='password'  /><br>
+						<p  id='loginremeberme'>
+						<input type='submit' name='$this->login' value='Logga in' />
+						<input type='checkbox' name='$this->remember' value='RemeberMe' />Kom ihåg mig</p>
+						<a href='$this->nav'>Registrera dig</a>
+					</fieldset>
+						<a href='$this->start' id='startlink2'>Startsidan</a>
 				
-				</form>		
+					</form>		
 				</div>";
 	}
 	
 	public function DoLogoutBox(){
 		//Retunerar utloggningsknappen
 		return "<div><form id='login' action='index.php' method='get' accept-charset='UTF-8'>
-				<a href='$this->start' id='startlink'>Startsidan</a>
-				<input type='submit' name='$this->logout' value='Logga ut' id='logoutbutton' />
-				</form>
+						<a href='$this->start' id='startlink'>Startsidan</a>
+						<input type='submit' name='$this->logout' value='Logga ut' id='logoutbutton' />
+					</form>
 				</div>";		
 	}
 
 	public function DoLogoutBoxAdmin(){
 		//Retunerar utloggningsknappen när admin är inloggad.
 		return "<div><form id='login' action='index.php' method='get' accept-charset='UTF-8'>
-				<a href='$this->start' id='startlink'>Startsidan</a>
-				<a href='$this->admin' id='startlink'>Skapa nytt inlägg</a>
-				<input type='submit' name='$this->logout' value='Logga ut' id='logoutbutton'/>
-				</form>
+						<a href='$this->start' id='startlink'>Startsidan</a>
+						<a href='$this->admin' id='startlink'>Skapa nytt inlägg</a>
+						<input type='submit' name='$this->logout' value='Logga ut' id='logoutbutton'/>
+					</form>
 				</div>";		
 	}
 
