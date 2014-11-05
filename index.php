@@ -102,13 +102,21 @@ class MasterController{
 		}	
 		
 		
-		return $body = $pageView->GetXHTML10StrictPage("IT News", $controller);
+		$body = $pageView->GetXHTML10StrictPage("PeterMagnusson84 - www.petermangusson84.nu", $controller);
+
+		return $body;
 		
 		$db->Close();
+		    	
+		        
 
 	}
 
+
+
 }
 echo MasterController::DoControll();
+
+
 
 ?>
