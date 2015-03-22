@@ -24,7 +24,7 @@ class CreateCommentView{
 					<form method='POST'>						
 						<div>	
 							<p id='commentPostLabel'>Skriv en kommentar:</p>
-							<p><textarea type='text' name='$this->comment' rows='10' cols='85' id='commenttext' /></textarea></p>
+							<p><textarea type='text' name='$this->comment' rows='10' cols='95' id='commenttext' /></textarea></p>
 						</div>																							
 						<div>	
 							<p><button name='$this->createcommentbutton' class='button' id='button'>Kommentera</button></p>

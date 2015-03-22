@@ -184,8 +184,8 @@
 	font-family: Trebuchet MS, Helvetica, sans-serif;
 	background-color:white;
 	width:40%;
-	padding-left:50px;
-	padding-right:50px;
+	padding-left:85px;
+	padding-right:16px;
 	padding-top: 30px;
 	padding-bottom:30px;
 	margin-left:26%;
@@ -225,9 +225,9 @@
 	font-weight: bold;
 	background-color: white;
 	margin-left: 600px;
-	margin-right: 600px;
+	margin-right: 650px;
 	margin-bottom: -16px;
-	padding-left: 80px;
+	padding-left: 225px;
 	padding-bottom: 1px;
 	padding-top: 4px;
 }
@@ -237,9 +237,9 @@
 	font-weight: bold;
 	background-color: white;
 	margin-left: 600px;
-	margin-right: 600px;
+	margin-right: 650px;
 	margin-bottom: 2px;
-	padding-left: 100px;
+	padding-left: 190px;
 	padding-bottom: 10px;
 	padding-top: 5px;
 }
@@ -326,9 +326,9 @@
 	font-weight: bold;
 	background-color: white;
 	margin-left: 600px;
-	margin-right: 600px;
+	margin-right: 675px;
 	margin-bottom: -16px;
-	padding-left: 100px;
+	padding-left: 225px;
 	padding-bottom: 10px;
 	padding-top: 5px;
 }
